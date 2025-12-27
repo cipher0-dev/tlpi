@@ -4,12 +4,12 @@ build:
 	mkdir build
 
 clean:
-	rm -r build
+	-rm -r build
 
-build/unsafe: build
+build/unsafe: build unsafe_environ_race.c
 	gcc -g -O0 -o build/unsafe unsafe_environ_race.c
 
-build/safe: build
+build/safe: build safe_environ_race.c
 	gcc -g -O0 -o build/safe safe_environ_race.c
 
 unsafe: build/unsafe
