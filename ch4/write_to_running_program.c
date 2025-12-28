@@ -6,7 +6,7 @@
 
 int main(int argc, char *argv[]) {
   if (argc < 2) {
-    printf("usage: %s <file>",argv[0]);
+    printf("usage: %s <file>\n",argv[0]);
     return EXIT_FAILURE;
   }
 
@@ -15,5 +15,9 @@ int main(int argc, char *argv[]) {
     perror("open");
     return EXIT_FAILURE;
   }
+
+  printf("file %s was opened for writing, pausing...\n", argv[0]);
+  pause();
+
   return EXIT_SUCCESS;
 }
