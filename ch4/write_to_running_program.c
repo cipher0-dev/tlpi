@@ -19,5 +19,10 @@ int main(int argc, char *argv[]) {
   printf("file %s was opened for writing, pausing...\n", argv[0]);
   pause();
 
+  if (close(fd) < 0) {
+    perror("close");
+    return EXIT_FAILURE;
+  }
+
   return EXIT_SUCCESS;
 }
