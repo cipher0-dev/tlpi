@@ -1,10 +1,10 @@
 #include <errno.h>
 #include <fcntl.h>
+#include <signal.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <signal.h>
 
 #define BUFFER_SIZE 4096
 
@@ -37,14 +37,14 @@ int main(int argc, char *argv[]) {
 
   int opt;
   bool append = false;
-  while((opt = getopt(argc, argv, ":a")) != -1) {
+  while ((opt = getopt(argc, argv, ":a")) != -1) {
     switch (opt) {
     case 'a':
-        append = true;
-        break;
+      append = true;
+      break;
     default:
-        print_usage(argv[0]);
-        return EXIT_FAILURE;
+      print_usage(argv[0]);
+      return EXIT_FAILURE;
     }
   }
 
@@ -105,9 +105,9 @@ int main(int argc, char *argv[]) {
 
     // write block to output file
     if (write_all(fd, buf, n_read) < 0) {
-        close(fd);
-        perror("write outfile");
-        return EXIT_FAILURE;
+      close(fd);
+      perror("write outfile");
+      return EXIT_FAILURE;
     }
   }
 

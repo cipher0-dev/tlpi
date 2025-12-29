@@ -1,12 +1,12 @@
 
-#include <stdio.h>
-#include <unistd.h>
-#include <stdlib.h>
 #include <fcntl.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
 int main(int argc, char *argv[]) {
   if (argc != 2) {
-    printf("usage: %s <file>\n",argv[0]);
+    printf("usage: %s <file>\n", argv[0]);
     return EXIT_FAILURE;
   }
 

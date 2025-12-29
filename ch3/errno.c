@@ -1,7 +1,7 @@
+#include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
-#include <errno.h>
 
 int main(int argc, char *argv[]) {
   ssize_t cnt = read(-1, NULL, 10);

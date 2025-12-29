@@ -1,6 +1,6 @@
-#include <unistd.h>
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 // NOTE: The writes happen out-of-order since stdio buffers output.
 int main(int argc, char *argv[]) {
