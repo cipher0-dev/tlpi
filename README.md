@@ -6,5 +6,7 @@ This repo tracks my progress on reading TLPI, including any exercises and toy pr
 - [x] Chapter 01 - History and Standards
 - [x] Chapter 02 - Fundamental Concepts
 - [x] Chapter 03 - System Programming Concepts
-- [ ] Chapter 04 - File I/O: The Universal I/O Model
+- [x] Chapter 04 - File I/O: The Universal I/O Model
 - [ ] Chapter 05 - File I/O: Further Details
+
+- [x] Appendix B - Parsing Command-Line Options

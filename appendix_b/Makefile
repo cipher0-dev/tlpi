@@ -1,0 +1,22 @@
+.PHONY: all clean
+
+REF_LIB_OBJS := $(patsubst ref/lib/%.c,build/ref/lib/%.o,$(wildcard ref/lib/*.c))
+REF_PROG_SRCS := $(filter-out ref/lib/%.c,$(wildcard ref/*/*.c))
+REF_PROG_BINS := $(patsubst ref/%.c,build/ref/%,$(REF_PROG_SRCS))
+
+all: $(PROG_BINS) $(REF_LIB_OBJS) $(REF_PROG_BINS)
+
+clean:
+	-rm -r build 2>/dev/null
+
+# ref lib objects
+
+build/ref/lib/%.o: ref/lib/%.c
+	mkdir -p $(@D)
+	gcc -c -I ref/lib -o $@ $^
+
+# ref program binaries
+
+build/ref/getopt/%: ref/getopt/%.c $(REF_LIB_OBJS)
+	mkdir -p $(@D)
+	gcc -I ref/lib -o $@ $^
