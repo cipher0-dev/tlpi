@@ -10,6 +10,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 04 - File I/O: The Universal I/O Model
 - [x] Chapter 05 - File I/O: Further Details
 - [x] Chapter 06 - Processes
-- [ ] Chapter 07 - Memory Allocation
+- [x] Chapter 07 - Memory Allocation
+- [ ] Chapter 08 - Users and Groups
 
 - [x] Appendix B - Parsing Command-Line Options
