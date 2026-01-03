@@ -11,6 +11,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 05 - File I/O: Further Details
 - [x] Chapter 06 - Processes
 - [x] Chapter 07 - Memory Allocation
-- [ ] Chapter 08 - Users and Groups
+- [x] Chapter 08 - Users and Groups
+- [ ] Chapter 09 - Process Credentials
 
 - [x] Appendix B - Parsing Command-Line Options
