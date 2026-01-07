@@ -12,6 +12,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 06 - Processes
 - [x] Chapter 07 - Memory Allocation
 - [x] Chapter 08 - Users and Groups
-- [ ] Chapter 09 - Process Credentials
+- [x] Chapter 09 - Process Credentials
+- [ ] Chapter 10 - Time
 
 - [x] Appendix B - Parsing Command-Line Options
