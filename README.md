@@ -13,6 +13,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 07 - Memory Allocation
 - [x] Chapter 08 - Users and Groups
 - [x] Chapter 09 - Process Credentials
-- [ ] Chapter 10 - Time
+- [x] Chapter 10 - Time
+- [ ] Chapter 11 - System Limits and Options
 
 - [x] Appendix B - Parsing Command-Line Options
