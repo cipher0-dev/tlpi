@@ -14,6 +14,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 08 - Users and Groups
 - [x] Chapter 09 - Process Credentials
 - [x] Chapter 10 - Time
-- [ ] Chapter 11 - System Limits and Options
+- [x] Chapter 11 - System Limits and Options
+- [ ] Chapter 12 - System and Process Information
 
 - [x] Appendix B - Parsing Command-Line Options
