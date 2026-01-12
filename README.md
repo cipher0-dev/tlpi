@@ -15,6 +15,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 09 - Process Credentials
 - [x] Chapter 10 - Time
 - [x] Chapter 11 - System Limits and Options
-- [ ] Chapter 12 - System and Process Information
+- [x] Chapter 12 - System and Process Information
+- [ ] Chapter 13 - File I/O Buffering
 
 - [x] Appendix B - Parsing Command-Line Options
