@@ -17,6 +17,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 11 - System Limits and Options
 - [x] Chapter 12 - System and Process Information
 - [x] Chapter 13 - File I/O Buffering
-- [ ] Chapter 14 - Filesystems
+- [x] Chapter 14 - File Systems
+- [ ] Chapter 15 - File Attributes
 
 - [x] Appendix B - Parsing Command-Line Options
