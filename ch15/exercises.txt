@@ -1,0 +1,32 @@
+15-1.
+  c)
+    Create a new file:
+      Parent dir: wx
+      File: (none)
+    Open a file for reading:
+      Parent dir: x
+      File: r
+    Open a file for writing:
+      Parent dir: x
+      File: w
+    Delete a file:
+      Parent dir: wx
+      File: (none)
+    Rename a file (target doesn't exist):
+      Source dir: wx
+      Target dir: wx
+    Rename a file (target does exist):
+      Source dir: wx
+      Target dir: wx
+      Target file: (none)
+    How does sticky bit affect renaming and deletion operaitons:
+      Stick bit allows owners of files to remove/rename them,
+      assuming there ins't already a target file owned by someone else
+15-2.
+  access: no (inode read but not file)
+  modified: no
+  changed: no
+  birth: no
+15-5.
+  You can use umask(0) to set the umask to zero and then read operaitons
+  and then Call umask(old) to set it back.
