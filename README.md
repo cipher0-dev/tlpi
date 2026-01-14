@@ -20,6 +20,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 14 - File Systems
 - [x] Chapter 15 - File Attributes
 - [x] Chapter 16 - Extended Attributes
-- [ ] Chapter 17 - Access Control Lists
+- [x] Chapter 17 - Access Control Lists
+- [ ] Chapter 18 - Directories and Links
 
 - [x] Appendix B - Parsing Command-Line Options
