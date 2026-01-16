@@ -22,6 +22,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 16 - Extended Attributes
 - [x] Chapter 17 - Access Control Lists
 - [x] Chapter 18 - Directories and Links
-- [ ] Chapter 19 - Monitoring File Events
+- [x] Chapter 19 - Monitoring File Events
+- [ ] Chapter 20 - Signals: Fundamental Concepts
 
 - [x] Appendix B - Parsing Command-Line Options
