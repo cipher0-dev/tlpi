@@ -1,0 +1,14 @@
+18-1. The target binary file is unlinked (removed) first. The file data remains
+      on disk since it is still open. Once all the instances of the program are
+      done running, it will be removed. In the mean time, the compiler is free
+      to create a new binary with the previous binary's name via something like
+      O_CREAT and write whatever they want to that new file. Since the inode
+      number is different, it has no effect on the old binary.
+18-2. mylink is a dangling symlink since its value (myfile) is relative to the
+      test dir.
+18-9. The chdir function might take less time considering there are only 3
+      syscalls that it needs to make vs 4 with fchdir. Both versions only have
+      to parse path names twice, however the chdir version also has to construct
+      a path and write it into the stack allocated memory. If the fd is reused,
+      then fchdir version will be much faster as it doesn't have to re-resolve
+      the path.
