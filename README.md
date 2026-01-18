@@ -23,6 +23,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 17 - Access Control Lists
 - [x] Chapter 18 - Directories and Links
 - [x] Chapter 19 - Monitoring File Events
-- [ ] Chapter 20 - Signals: Fundamental Concepts
+- [x] Chapter 20 - Signals: Fundamental Concepts
+- [ ] Chapter 21 - Signals: Signal Handlers
 
 - [x] Appendix B - Parsing Command-Line Options
