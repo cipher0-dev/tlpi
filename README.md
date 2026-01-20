@@ -24,6 +24,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 18 - Directories and Links
 - [x] Chapter 19 - Monitoring File Events
 - [x] Chapter 20 - Signals: Fundamental Concepts
-- [ ] Chapter 21 - Signals: Signal Handlers
+- [x] Chapter 21 - Signals: Signal Handlers
+- [ ] Chapter 22 - Signals: Advanced Features
 
 - [x] Appendix B - Parsing Command-Line Options
