@@ -26,6 +26,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 20 - Signals: Fundamental Concepts
 - [x] Chapter 21 - Signals: Signal Handlers
 - [x] Chapter 22 - Signals: Advanced Features
-- [ ] Chapter 23 - Timers and Sleeping
+- [x] Chapter 23 - Timers and Sleeping
+- [ ] Chapter 24 - Process Creation
 
 - [x] Appendix B - Parsing Command-Line Options
