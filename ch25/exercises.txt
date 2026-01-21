@@ -1,0 +1,2 @@
+25-1) 255, because -1 as a 2's complement binary value is all 1's, and only the
+      eight least significant bits are used.

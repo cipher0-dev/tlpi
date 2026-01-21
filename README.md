@@ -28,6 +28,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 22 - Signals: Advanced Features
 - [x] Chapter 23 - Timers and Sleeping
 - [x] Chapter 24 - Process Creation
-- [ ] Chapter 25 - Process Termination
+- [x] Chapter 25 - Process Termination
+- [ ] Chapter 26 - Monitoring Child Processes
 
 - [x] Appendix B - Parsing Command-Line Options
