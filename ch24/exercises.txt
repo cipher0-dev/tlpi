@@ -1,0 +1,13 @@
+24-1) 7 new processes, 8 total including the original parent
+
+           original                         1
+           fork()   -> child-1              2
+child-2 <- fork()   -> fork()  -> child-3   4
+fork()     fork()      fork()     fork()    8
+
+24-3) We could fork the process and then have the child raise a signal with a
+      core dump for its default disposition and then wait on this child to exit
+      in the parent. Alternatively gdb's gcore command or the stand alone gcore
+      command could be used.
+24-5) The child would need sigsuspent on a signal, probably USR2 to keep thigs
+      separate. The parent would need to send that signal to the child.
