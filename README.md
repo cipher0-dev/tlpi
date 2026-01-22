@@ -31,6 +31,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 25 - Process Termination
 - [x] Chapter 26 - Monitoring Child Processes
 - [x] Chapter 27 - Program Execution
-- [ ] Chapter 28 - Process Creation and Program Execution In More Detail
+- [x] Chapter 28 - Process Creation and Program Execution In More Detail
+- [ ] Chapter 29 - Threads: Introduction
 
 - [x] Appendix B - Parsing Command-Line Options
