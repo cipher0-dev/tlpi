@@ -1,0 +1,1 @@
+readlink /proc/$$/exe

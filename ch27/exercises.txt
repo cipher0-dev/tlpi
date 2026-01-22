@@ -1,0 +1,20 @@
+27-1) ./dir2/xyz will be invoked with the arg "hello world".
+27-3) 1 #!/bin/cat -n
+      2 Hello world
+27-4) The grandparent creates a child, and that child creates a grandchild that
+      does some work. The child does not wait on the grandchild and exits
+      immediately so it is orphaned back up to the init process. The child and
+      grandchild call exit and not _exit so there is going to be issues with
+      flushing shared buffers and invoking exit handlers. This might be useful
+      if the grandchild plans to allocate a bunch of memory on the heap and we
+      don't want to keep track of all of it to manually free later. When the
+      grandchild exits it will all be freed automatically and the grandparent
+      doesn't need to wait on it since init will do the waiting.
+27-5) printf writes to stdlib buffers and does not flush (without a \n this even
+      includes terminals and other file streams that are line buffed). This
+      means when the exec happens the buffers are never flushed and this memoy
+      goes bye bye.
+27-6) When SIGCHLD is unblocked, it will invoke the handler. Since system uses
+      waitpid, the correct child will be waited, and after the system call ends,
+      the handler will be invoked so the handler needs to be aware that it might
+      be invoked for children that have already been waited.
