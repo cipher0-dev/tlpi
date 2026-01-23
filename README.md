@@ -36,6 +36,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 30 - Threads: Thread Synchronization
 - [x] Chapter 31 - Threads: Thread Safety and Per-thread Storage
 - [x] Chapter 32 - Threads: Thread Cancellation
-- [ ] Chapter 33 - Threads: Further Details
+- [x] Chapter 33 - Threads: Further Details
+- [ ] Chapter 34 - Process Groups, Sessions, and Job Control
 
 - [x] Appendix B - Parsing Command-Line Options

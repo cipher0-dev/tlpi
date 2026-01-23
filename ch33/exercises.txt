@@ -1,0 +1,1 @@
+33-2) Nope, the signal could be handled by any thread in the process.
