@@ -1,0 +1,5 @@
+29-1) I would guess that it would block since it is trying to join with itself.
+29-2) The main thread exits, which will cause all threads to terminate and
+      threadFunc won't be able to complete. If the threadFunc were allowed to
+      continue running, it would also be referencing stack memory on the main
+      func that is no longer valid.

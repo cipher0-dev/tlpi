@@ -32,6 +32,10 @@ programs I create as tangents to the reading.
 - [x] Chapter 26 - Monitoring Child Processes
 - [x] Chapter 27 - Program Execution
 - [x] Chapter 28 - Process Creation and Program Execution In More Detail
-- [ ] Chapter 29 - Threads: Introduction
+- [x] Chapter 29 - Threads: Introduction
+- [x] Chapter 30 - Threads: Thread Synchronization
+- [x] Chapter 31 - Threads: Thread Safety and Per-thread Storage
+- [x] Chapter 32 - Threads: Thread Cancellation
+- [ ] Chapter 33 - Threads: Further Details
 
 - [x] Appendix B - Parsing Command-Line Options
