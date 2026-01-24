@@ -1,0 +1,5 @@
+38-1) It removed the set-user-id bit. I would assume the kernel does this
+      because at the time of setting this bit you were authorizing a specific
+      binary to run with set-user-id. Once that file has changed, even by the
+      owner of that file, it is now a new binary that isn't authorized. This
+      must be a security measure by the kernel.

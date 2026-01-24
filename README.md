@@ -41,6 +41,9 @@ programs I create as tangents to the reading.
 - [x] Chapter 35 - Process Priorities and Scheduling
 - [x] Chapter 36 - Process Resources
 - [x] Chapter 37 - Daemons
-- [ ] Chapter 38 - Writing Secure Privileged Progams
+- [x] Chapter 38 - Writing Secure Privileged Programs
+- [x] Chapter 39 - Capabilities
+- [x] Chapter 40 - Login Accounting
+- [ ] Chapter 41 - Fundamentals of Shared Libraries
 
 - [x] Appendix B - Parsing Command-Line Options
