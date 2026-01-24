@@ -37,6 +37,10 @@ programs I create as tangents to the reading.
 - [x] Chapter 31 - Threads: Thread Safety and Per-thread Storage
 - [x] Chapter 32 - Threads: Thread Cancellation
 - [x] Chapter 33 - Threads: Further Details
-- [ ] Chapter 34 - Process Groups, Sessions, and Job Control
+- [x] Chapter 34 - Process Groups, Sessions, and Job Control
+- [x] Chapter 35 - Process Priorities and Scheduling
+- [x] Chapter 36 - Process Resources
+- [x] Chapter 37 - Daemons
+- [ ] Chapter 38 - Writing Secure Privileged Progams
 
 - [x] Appendix B - Parsing Command-Line Options
