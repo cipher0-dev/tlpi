@@ -1,0 +1,8 @@
+1. Tiny messages have terrible bandwidth on all tests likely due to syscall
+   overhead.
+2. Medium message sizes had the best performance around 10k-100k.
+3. Huge messages performace dropped off but was not as poor as tiny messages.
+4. Message queues (sysv and posix) and datagram sockets can not have large
+   message sizes. This is because they are all datagram style interfaces that
+   are meant for messages that are small in size (<8192 bytes).
+5. Unix datagram socketrs performed best of any test at 100k size messages.

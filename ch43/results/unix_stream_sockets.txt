@@ -1,0 +1,40 @@
+===== 10 1000000000
+elapsed: 0.908512 s
+bytes:   10000000000
+bandwidth: 11007008076.19 bytes/s (10497.10 MB/s)
+
+===== 100 100000000
+elapsed: 0.933851 s
+bytes:   10000000000
+bandwidth: 10708341796.76 bytes/s (10212.27 MB/s)
+
+===== 1000 10000000
+elapsed: 0.436510 s
+bytes:   10000000000
+bandwidth: 22908991061.71 bytes/s (21847.72 MB/s)
+
+===== 10000 1000000
+elapsed: 0.509530 s
+bytes:   10000000000
+bandwidth: 19625915334.29 bytes/s (18716.73 MB/s)
+
+===== 100000 100000
+elapsed: 0.489812 s
+bytes:   10000000000
+bandwidth: 20415977876.66 bytes/s (19470.19 MB/s)
+
+===== 1000000 10000
+elapsed: 0.653856 s
+bytes:   10000000000
+bandwidth: 15293886263.15 bytes/s (14585.39 MB/s)
+
+===== 10000000 1000
+elapsed: 2.861282 s
+bytes:   10000000000
+bandwidth: 3494936948.45 bytes/s (3333.03 MB/s)
+
+===== 100000000 100
+elapsed: 25.880188 s
+bytes:   10000000000
+bandwidth: 386395963.51 bytes/s (368.50 MB/s)
+
