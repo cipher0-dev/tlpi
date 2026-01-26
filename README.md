@@ -47,6 +47,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 41 - Fundamentals of Shared Libraries
 - [x] Chapter 42 - Advanced Features of Shared Libraries
 - [x] Chapter 43 - Interprocess Communication Overview
-- [ ] Chapter 44 - Pipes and FIFOs
+- [x] Chapter 44 - Pipes and FIFOs
+- [ ] Chapter 45 - Introduction to System V IPC
 
 - [x] Appendix B - Parsing Command-Line Options
