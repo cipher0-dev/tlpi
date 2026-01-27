@@ -1,0 +1,55 @@
+client A
+
+   write -> type: 0
+                pid: 12345
+                reqid: 333
+                data: foobar
+   read <- type: 12345
+                pid: 12345
+                reqid: 333
+                data: FOOBAR
+   write -> type: 0
+                pid: 12345
+                reqid: 334
+                data: bazqux
+   read <- type: 12345
+                pid: 12345
+                reqid: 334
+                data: BAZQUX
+
+client B
+
+   write -> type: 0
+                pid: 54321
+                reqid: 111
+                data: asdf
+   read <- type: 54321
+                pid: 54321
+                reqid: 111
+                data: ASDF
+
+server
+
+   read <- type: 0
+                pid: 12345
+                reqid: 333
+                data: foobar
+   write -> type: 12345
+                pid: 12345
+                reqid: 333
+                data: FOOBAR
+   read <- type: 0
+                pid: 12345
+                reqid: 334
+                data: bazqux
+   write -> type: 12345
+                pid: 12345
+                reqid: 334
+                data: BAZQUX
+   read <- type: 0
+                pid: 54321
+                reqid: 111
+                data: asdf
+   write -> type: 54321
+                reqid: 111
+                data: ASDF

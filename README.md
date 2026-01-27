@@ -48,6 +48,13 @@ programs I create as tangents to the reading.
 - [x] Chapter 42 - Advanced Features of Shared Libraries
 - [x] Chapter 43 - Interprocess Communication Overview
 - [x] Chapter 44 - Pipes and FIFOs
-- [ ] Chapter 45 - Introduction to System V IPC
+- [x] Chapter 45 - Introduction to System V IPC
+- [x] Chapter 46 - System V Message Queues
+- [x] Chapter 47 - System V Semaphores
+- [x] Chapter 48 - System V Shared Memory
+- [ ] Chapter 49 - Memory Mappings
 
+- [ ] Appendix A - Tracing System Calls
 - [x] Appendix B - Parsing Command-Line Options
+- [ ] Appendix C - Casting the NULL Pointer
+- [ ] Appendix D - Kernel Configuration

@@ -50,7 +50,7 @@ int main(int argc, char *argv[]) {
   memset(buf, 0xAA, block_size);
 
   /* create message queue */
-  int msqid = msgget(IPC_PRIVATE, IPC_CREAT | 0600);
+  int msqid = msgget(IPC_PRIVATE, 0600);
   assert(msqid != -1);
 
   /* allocate the message once */
