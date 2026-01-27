@@ -52,7 +52,8 @@ programs I create as tangents to the reading.
 - [x] Chapter 46 - System V Message Queues
 - [x] Chapter 47 - System V Semaphores
 - [x] Chapter 48 - System V Shared Memory
-- [ ] Chapter 49 - Memory Mappings
+- [x] Chapter 49 - Memory Mappings
+- [ ] Chapter 50 - Virtual Memory Operations
 
 - [ ] Appendix A - Tracing System Calls
 - [x] Appendix B - Parsing Command-Line Options
