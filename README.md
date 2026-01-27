@@ -53,7 +53,21 @@ programs I create as tangents to the reading.
 - [x] Chapter 47 - System V Semaphores
 - [x] Chapter 48 - System V Shared Memory
 - [x] Chapter 49 - Memory Mappings
-- [ ] Chapter 50 - Virtual Memory Operations
+- [x] Chapter 50 - Virtual Memory Operations
+- [x] Chapter 51 - Introduction to POSIX IPC
+- [ ] Chapter 52 - POSIX Message Queues
+- [ ] Chapter 53 - POSIX Semaphores
+- [ ] Chapter 54 - POSIX Shared Memory
+- [ ] Chapter 55 - File Locking
+- [ ] Chapter 56 - Sockets: Introduction
+- [ ] Chapter 57 - Sockets: UNIX Domain
+- [ ] Chapter 58 - Sockets: Fundamentals of TCP/IP Networks
+- [ ] Chapter 59 - Sockets: Internet Domains
+- [ ] Chapter 60 - Sockets: Server Design
+- [ ] Chapter 61 - Sockets: Advanced Topics
+- [ ] Chapter 62 - Terminals
+- [ ] Chapter 63 - Alternative I/O Models
+- [ ] Chapter 64 - Pseudoterminals
 
 - [ ] Appendix A - Tracing System Calls
 - [x] Appendix B - Parsing Command-Line Options
