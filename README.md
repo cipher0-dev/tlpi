@@ -56,7 +56,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 50 - Virtual Memory Operations
 - [x] Chapter 51 - Introduction to POSIX IPC
 - [x] Chapter 52 - POSIX Message Queues
-- [ ] Chapter 53 - POSIX Semaphores
+- [x] Chapter 53 - POSIX Semaphores
 - [ ] Chapter 54 - POSIX Shared Memory
 - [ ] Chapter 55 - File Locking
 - [ ] Chapter 56 - Sockets: Introduction
