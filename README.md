@@ -58,7 +58,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 52 - POSIX Message Queues
 - [x] Chapter 53 - POSIX Semaphores
 - [x] Chapter 54 - POSIX Shared Memory
-- [ ] Chapter 55 - File Locking
+- [x] Chapter 55 - File Locking
 - [ ] Chapter 56 - Sockets: Introduction
 - [ ] Chapter 57 - Sockets: UNIX Domain
 - [ ] Chapter 58 - Sockets: Fundamentals of TCP/IP Networks
