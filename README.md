@@ -62,8 +62,8 @@ programs I create as tangents to the reading.
 - [x] Chapter 56 - Sockets: Introduction
 - [x] Chapter 57 - Sockets: UNIX Domain
 - [x] Chapter 58 - Sockets: Fundamentals of TCP/IP Networks
-- [ ] Chapter 59 - Sockets: Internet Domains
-- [ ] Chapter 60 - Sockets: Server Design
+- [x] Chapter 59 - Sockets: Internet Domains
+- [x] Chapter 60 - Sockets: Server Design
 - [ ] Chapter 61 - Sockets: Advanced Topics
 - [ ] Chapter 62 - Terminals
 - [ ] Chapter 63 - Alternative I/O Models
