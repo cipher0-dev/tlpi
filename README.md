@@ -65,7 +65,7 @@ programs I create as tangents to the reading.
 - [x] Chapter 59 - Sockets: Internet Domains
 - [x] Chapter 60 - Sockets: Server Design
 - [x] Chapter 61 - Sockets: Advanced Topics
-- [ ] Chapter 62 - Terminals
+- [x] Chapter 62 - Terminals
 - [ ] Chapter 63 - Alternative I/O Models
 - [ ] Chapter 64 - Pseudoterminals
 
