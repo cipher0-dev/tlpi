@@ -1,0 +1,10 @@
+63-4. The server might get more signals while work is being done and those
+      signals would be ignored. Draining the pipe first makes missing signals
+      less likely.
+63-6. epoll_wait will block forever. This might be usefull if you want to sleep
+      using the timeout arg, or if you just want the thread to block forever for
+      testing. If another thread is adding to the interest list, it would then
+      unblock.
+63-7. I'm guessing the file descriptors that are returned on each wait are
+      selected at random similar to Go's select statement. This would prevent
+      starvation of any specific fd.

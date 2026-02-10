@@ -66,10 +66,10 @@ programs I create as tangents to the reading.
 - [x] Chapter 60 - Sockets: Server Design
 - [x] Chapter 61 - Sockets: Advanced Topics
 - [x] Chapter 62 - Terminals
-- [ ] Chapter 63 - Alternative I/O Models
-- [ ] Chapter 64 - Pseudoterminals
+- [x] Chapter 63 - Alternative I/O Models
+- [x] Chapter 64 - Pseudoterminals
 
-- [ ] Appendix A - Tracing System Calls
+- [x] Appendix A - Tracing System Calls
 - [x] Appendix B - Parsing Command-Line Options
-- [ ] Appendix C - Casting the NULL Pointer
-- [ ] Appendix D - Kernel Configuration
+- [x] Appendix C - Casting the NULL Pointer
+- [x] Appendix D - Kernel Configuration

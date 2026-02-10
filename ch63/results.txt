@@ -1,0 +1,2 @@
+- blocking threaded client got up to 160 GB/s with 12 thread on 16 core machine
+- nonblocking threaded client was about the same 
