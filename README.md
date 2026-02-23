@@ -1,5 +1,7 @@
 
-# The Linux Programming Interface - Michael Kerrisk
+# The Linux Programming Interface
+
+### Michael Kerrisk
 
 This repo tracks my progress on reading TLPI, including any exercises and toy
 programs I create as tangents to the reading.
